@@ -126,7 +126,21 @@ header .navbar .toggler{
     } 
 }
 /* Header Section End */
-
+/* Hero Section start */
+.hero {
+    background-image: url(../images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 0 8px;
+}
+.hero .img-fluid {
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+/* Hero Section End */
 /* Testimonial Section Start */
 .testimonial{
     background-color: #e9e6e6;
