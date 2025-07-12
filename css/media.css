@@ -9,6 +9,19 @@
         width: 100%;
         padding: 15px;
     }
+    .footer .social-links li {
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .footer .social-links li::after {
+        content: "|";
+        color: #ffffff;
+        margin-left: 30px;
+    }
+
+    .footer .social-links li:last-child::after {
+        content: " ";
+    }
 }
 /* md */
 @media(min-width:768px){
@@ -20,7 +33,10 @@
     .col-md-6{
         width: 50%;
         padding: 15px;
-    }   
+    } 
+    .hero{
+        height: 500px;
+    }  
 }
 /* lg */
 @media(min-width:991px){
