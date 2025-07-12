@@ -1,0 +1,236 @@
+:root{
+    --theme-heading: #112655;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+ul li{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-5{
+    width: 41.67%;
+    padding: 15px;
+}
+.col-6{
+    width: 50%;
+    padding: 15px;
+}
+.col-7{
+    width: 58.33%;
+    padding: 15px;
+}
+
+.col-12{
+    width: 100%;
+    padding: 15px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.p-0{
+    padding: 0;
+}
+.pe-0{
+    padding-right: 0;
+}
+/* Header Section Start */
+header{
+    padding: 20px 10px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+header .navbar .logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--theme-heading);
+}
+header .navbar nav ul li{
+    padding: 10px;
+}
+header .navbar nav ul li a{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+header .navbar nav ul li:first-child a{
+    background-color: var(--theme-heading);
+    color: #ffffff;
+}
+header .navbar nav ul li a:hover{
+    background-color: var(--theme-heading);
+    color: #ffffff;
+}
+header .navbar .toggler{
+    display: none;
+    padding: 0 10px;
+    height: 40px;
+}
+/* Header Section End */
+
+/* Testimonial Section Start */
+.testimonial{
+    background-color: #e9e6e6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.testimonial .testimonial-header{
+    text-align: center;
+}
+.testimonial .testimonial-header h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--theme-heading);
+    margin-bottom: 20px;
+}
+.testimonial .testimonial-header h2::after{
+    content: " ";
+    height: 2px;
+    width: 120px;
+    background-color: #8a3914;
+}
+.testimonial .testimonial-header p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--theme-heading);
+}
+.testimonial .testimonial-body{
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+}
+.testimonial .testimonial-body .testimonial-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.testimonial .testimonial-body .testimonial-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.testimonial .testimonial-body .testimonial-content h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--theme-heading);
+    margin-bottom: 0.5rem;
+}
+.testimonial .testimonial-body .testimonial-content span{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme-heading);
+    padding-bottom: 10px;
+}
+.testimonial .testimonial-body .testimonial-content .star{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.testimonial .testimonial-body .testimonial-content .star i{
+    color: #dd9d27;
+    margin-right: 5px;
+}
+.testimonial .testimonial-body .testimonial-content p{
+    padding-top: 1rem;
+    color: var(--theme-heading);
+}
+
+/* Testimonial Section End */
+
+/* Contact Section Start */
+.contact{
+    padding: 80px;
+    background-color: #e9e6e6;
+}
+.contact .contact-body{
+    background-color: #ffffff;
+    padding-bottom: 72px;
+}
+.contact .contact-body h2{
+    font-size: 1.8rem;
+    color: var(--theme-heading);
+    padding-left: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.contact .contact-body label{
+    font-size: 14px;
+}
+.contact .contact-body input,textarea{
+    outline: 0;
+    width: 100%;
+}
+.contact .contact-body input,textarea ::placeholder{
+    font-size: 14px;
+}
+.contact .contact-body .form-control{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.contact .contact-body button{
+    background-color: var(--theme-heading);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+}
+/* Contact Section End */
+
+/* footer Section start */
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+footer h4{
+    font-size: 1.5rem;
+}
+footer h4 span{
+    color: var(--theme-heading);
+}
+/* footer Section end */
