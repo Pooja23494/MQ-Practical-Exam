@@ -170,23 +170,35 @@ header .navbar .toggler {
 }
 
 /* Header Section End */
+<<<<<<< HEAD
 
 /* Hero Section start */
 .hero {
     background-image: url(../images/pexels-fox-58267-1895024.jpg);
+=======
+/* Hero Section start */
+.hero {
+    background-image: url(../images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg);
+>>>>>>> b48c68d94f21a2d9e214bc4e8caaf22a6fe2d06a
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
     margin: 0 8px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b48c68d94f21a2d9e214bc4e8caaf22a6fe2d06a
 .hero .img-fluid {
     display: none;
     max-width: 100%;
     height: auto;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b48c68d94f21a2d9e214bc4e8caaf22a6fe2d06a
 /* Hero Section End */
 /* Testimonial Section Start */
 .testimonial {
@@ -273,7 +285,11 @@ header .navbar .toggler {
 /* Testimonial Section End */
 
 /* Contact Section Start */
+<<<<<<< HEAD
 .contact {
+=======
+.contact{
+>>>>>>> b48c68d94f21a2d9e214bc4e8caaf22a6fe2d06a
     padding: 80px 0;
     background-color: #e9e6e6;
 }
@@ -342,6 +358,35 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     margin-right: 30px;
+<<<<<<< HEAD
+=======
+}
+
+.footer .social-links li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .social-links li a:hover {
+    color: #0000ff;
+}
+
+.footer .copyright p {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.footer .copyright p a {
+    color: #0000ff;
+    font-size: 1rem;
+>>>>>>> b48c68d94f21a2d9e214bc4e8caaf22a6fe2d06a
 }
 
 .footer .social-links li a {
